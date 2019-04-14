@@ -1,0 +1,42 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 201 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 173004 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2137 1 5407 0 -1
+ciMethod java/lang/String length ()I 4097 1 74860 0 0
+ciMethod java/lang/String charAt (I)C 4097 1 456851 0 128
+ciMethod java/lang/String indexOf (I)I 4097 1 42925 0 352
+ciMethod java/lang/String indexOf (II)I 1625 65537 886 0 448
+ciMethod java/lang/String indexOfSupplementary (II)I 0 0 1 0 -1
+ciMethod java/lang/ClassLoader loadClass (Ljava/lang/String;Z)Ljava/lang/Class; 2049 1 5376 81 0
+ciMethod java/lang/ClassLoader getClassLoadingLock (Ljava/lang/String;)Ljava/lang/Object; 2049 1 5463 0 0
+ciMethod java/lang/ClassLoader findClass (Ljava/lang/String;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod java/lang/ClassLoader checkName (Ljava/lang/String;)Z 2049 1 5388 0 576
+ciMethod java/lang/ClassLoader resolveClass (Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod java/lang/ClassLoader findBootstrapClassOrNull (Ljava/lang/String;)Ljava/lang/Class; 1033 1 2586 0 0
+ciMethod java/lang/ClassLoader findBootstrapClass (Ljava/lang/String;)Ljava/lang/Class; 2057 1 257 0 -1
+ciMethod java/lang/ClassLoader findLoadedClass (Ljava/lang/String;)Ljava/lang/Class; 2065 1 5467 0 0
+ciMethod java/lang/ClassLoader findLoadedClass0 (Ljava/lang/String;)Ljava/lang/Class; 3081 1 385 0 -1
+ciMethod java/lang/System nanoTime ()J 2049 1 256 0 -1
+ciMethod java/lang/Throwable <init> (Ljava/lang/String;Ljava/lang/Throwable;)V 2049 1 2458 0 -1
+ciMethod java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable; 2049 1 2547 0 -1
+ciMethod java/lang/Exception <init> (Ljava/lang/String;Ljava/lang/Throwable;)V 2049 1 2458 0 -1
+ciMethod java/lang/ClassNotFoundException <init> (Ljava/lang/String;)V 1057 1 2435 0 0
+ciMethod java/lang/ReflectiveOperationException <init> (Ljava/lang/String;Ljava/lang/Throwable;)V 2049 1 2436 0 -1
+ciMethod sun/misc/Unsafe getLong (J)J 3073 1 384 0 -1
+ciMethod sun/misc/Unsafe putLong (JJ)V 2049 1 256 0 -1
+ciMethod java/net/URLClassLoader findClass (Ljava/lang/String;)Ljava/lang/Class; 2049 1 4479 132 0
+ciMethod java/nio/Buffer checkIndex (I)I 2049 1 789 0 0
+ciMethod java/security/AccessController doPrivileged (Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; 3081 1 385 0 -1
+ciMethod sun/misc/VM allowArraySyntax ()Z 2073 1 5388 0 0
+ciMethodData java/lang/Object <init> ()V 2 173007 orig 264 136 112 122 86 0 0 0 0 136 4 7 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 121 14 21 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/ConcurrentHashMap spread (I)I 2049 1 9055 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2801 1 15704 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 2057 1 4642 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2249 393 5593 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 1 8063 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap initTable ()[Ljava/util/concurrent/ConcurrentHashMap$Node; 57 1 62 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap addCount (JI)V 2049 57 4252 0 -1
+ciMeth
