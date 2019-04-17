@@ -12,6 +12,8 @@ public class NetflixZuulApiGatewayServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NetflixZuulApiGatewayServerApplication.class, args);
+		//Url
+		//http:localhost:8765/currency-conversion-service/currency-converter-feign/from/{from}/to/{to}/quantity/{quantity}
 	}
 
 }
